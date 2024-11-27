@@ -18,7 +18,7 @@ app.use('/api/products', productRoutes);
 app.use('/product-images', express.static(path.join(__dirname, 'public/product-images')));
 
 // Port configuration
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 // Start the server
 let server;
